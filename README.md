@@ -1,1 +1,1 @@
-# SE_files
+Så hvad jeg gjorde for at fikse problemet med command-injection, til en vis grad, var at udnytte en blacklist som giver en fejl, hvis man bruger de fleste specialtegn. Jeg lavet et loop som løber igennem den steng som terminalen før og hvis den finder et tegn som ikke er tilladt så ændre den en variable, kaldet flag, til 1. Hvad man ellers kunne havde gjort var at benytte en whitelist, som gør at kun visse bogstaver, tal og tegn er tilladt, eller man kunne benytte sig af en andet framework som er lavet mere sikkert og som tjekker for en.
